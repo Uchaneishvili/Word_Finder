@@ -60,7 +60,7 @@ function WordSearchLogic(gameId, list) {
 	 * that represents a word search grid of letters!
 	 *
 	 * @param {String[][]} wordList array of words to fit in matrix
-	 * @param {Array[]} matrix to fit words in
+	 * @param {Array[]} matrix to fit words in.
 	 */
 	function fitWordsIntoMatrix(wordList, matrix) {
 		//loops through rows

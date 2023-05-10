@@ -10,7 +10,7 @@
  * 		 secondary diagonal - upper right corner -> lower left corner
  *
  * 'backwards' at the end of the string refers to it going the opposite direction (so
- *  bottom -> top or lower left -> upper right)
+ *  bottom -> top or lower left -> upper right).
  */
 var paths = {
 	vert: 'vertical',
@@ -25,7 +25,7 @@ var paths = {
 };
 
 /** this object sets up the matrix bounds for each orientation (just to ensure when inserting
- * a word into the board in a given path, the word doesnt exceed the size of the matrix)
+ * a word into the board in a given path, the word doesnt exceed the size of the matrix).
  *
  * @param {Number} x row of current matrix index
  * @param {Number} y column of current matrix index
