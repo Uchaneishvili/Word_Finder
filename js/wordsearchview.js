@@ -43,7 +43,7 @@ function WordSearchView(matrix, list, gameId, listId, instructionsId) {
 	};
 
 	/* creates the word search puzzle grid and the table containing the list
-	 * of words to find
+	 * of words to find.
 	 */
 	this.setUpView = function () {
 		createSearchGrid(
